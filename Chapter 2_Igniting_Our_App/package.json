@@ -1,0 +1,21 @@
+{
+  "name": "chapter2_igniting_our_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"parcel index.html --port 1234",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Akshat Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
